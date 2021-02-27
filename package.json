@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+     "start": "nodemon server.js",
+    "eslint": "eslint *.js",
+    "eslint:fix": "eslint --fix *.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,15 @@
     "mongoose": "^5.11.18"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
   }
 }
