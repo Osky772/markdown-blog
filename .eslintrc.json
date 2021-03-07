@@ -8,6 +8,7 @@
         "prettier/prettier": "error",
         "no-unused-vars": "warn",
         "no-console": "off",
-        "node/no-unpublished-require": "off"
+        "node/no-unpublished-require": "off",
+        "func-names": "off"
     }
 }

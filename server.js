@@ -7,6 +7,7 @@ require('./.db-config');
 mongoose.connect(process.env.URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  useCreateIndex: true,
 });
 
 const app = express();
