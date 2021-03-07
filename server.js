@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const Article = require('./models/article');
 const articleRouter = require('./routes/articles');
-require('./.db-config');
+// require('./.db-config');
 
 mongoose.connect(process.env.URI, {
   useNewUrlParser: true,
